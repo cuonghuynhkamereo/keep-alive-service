@@ -1,5 +1,5 @@
 const BACKEND_URL = 'https://reawake-server.onrender.com'; // Thay bằng URL của backend chính
-const KEEP_ALIVE_INTERVAL = 10 * 60 * 1000; // 10 phút (600,000 ms)
+const KEEP_ALIVE_INTERVAL = 1 * 60 * 1000; // 10 phút (600,000 ms)
 
 async function sendKeepAliveRequest() {
   const statusElement = document.getElementById('status');
